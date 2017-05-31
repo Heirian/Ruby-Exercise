@@ -1,1 +1,1 @@
-# My personal Ruby exercise draft copy of RubyMonk https://rubymonk.com
+# My personal draft copy of Ruby exercises of RubyMonk  https://rubymonk.com
