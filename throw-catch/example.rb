@@ -52,3 +52,19 @@ candy = catch(:found) do
 end
 puts candy
 puts attempts
+
+#substituindo throw/catch por um metodo
+
+def search( floor)
+    floor.each do |row|
+      row.each do |tile|
+        return tile if tile == "jawbreaker" || tile == "gummy"
+      end
+    end
+end
+
+candy = ->(flr) {
+   search(flr)
+}
+
+puts candy
