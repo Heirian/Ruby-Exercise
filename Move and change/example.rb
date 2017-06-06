@@ -31,3 +31,9 @@ end
 
 p custom_inject([4, 8, 15, 16, 23, 42], 0)
 #
+def occurrences(str)
+	str.scan(/\w+/).inject(Hash.new(0)) do |build, word| 
+  	build[word.downcase] +=1
+  	build
+	end
+end
