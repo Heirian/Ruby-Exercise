@@ -7,3 +7,7 @@ end
 def a_string_longer_than_10_characters
   "abcdefghijklmnopqrstuvwxyz"
 end
+
+def a_number_with_a_decimal_place
+  3.14
+end
