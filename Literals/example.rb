@@ -11,3 +11,9 @@ end
 def a_number_with_a_decimal_place
   3.14
 end
+
+def an_array_of_hashes
+  [ {:name => "Batman", :power => "I'm Batman."},
+    {:name => "SpongeBob", :power => "Optimism"},
+    {:name => "Bertrand Russell", :power => "Mathematics"} ]
+end
