@@ -17,3 +17,9 @@ def an_array_of_hashes
     {:name => "SpongeBob", :power => "Optimism"},
     {:name => "Bertrand Russell", :power => "Mathematics"} ]
 end
+
+def an_array_of_arrays
+  [ [:i, :am, :an, :inner, :array],
+    ["so", "am", "i"],
+    ["we're", "not", "even", "all", "the", "same", "size!"] ]
+end
